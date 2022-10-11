@@ -70,7 +70,7 @@
 \rfoot{\footnotesize page \thepage\ of \pageref{LastPage}}	% "Page 1 of 2"
 \renewcommand{\headrulewidth}{0.0pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\newcommand{\hformbar}[1]{\vspace{2pt}\hrule\vspace{5pt}} % creates a horizontal bar to separate formulae better; space adaptions can be made centrally here
+\newcommand{\hformbar}[1]{\bigskip\hrule\vspace{5pt}} % creates a horizontal bar to separate formulae better; space adaptions can be made centrally here
 
 
 %%% Creating an initial of the very first character of the content
@@ -86,20 +86,18 @@
 \newcommand{\HorRule}{\color{DarkGoldenrod}%	% Creating a horizontal rule
 									  	\rule{\linewidth}{1pt}%
 										}
-
 \pretitle{\vspace{-30pt} \begin{flushleft} \HorRule 
-				\fontsize{30}{30} \usefont{OT1}{phv}{b}{n} \color{DarkRed} \selectfont 
+				\fontsize{15}{15} \usefont{OT1}{phv}{b}{n} \color{DarkRed} \selectfont 
 				}
 \title{Formulaire Capteur} % Title of your article goes here
-\posttitle{\par\end{flushleft}\vskip 0.1cm}
-
-\preauthor{\begin{flushleft}\large \lineskip 0.1cm \usefont{OT1}{phv}{b}{sl} \color{DarkRed}}
+\posttitle{\par\end{flushleft}}
+\preauthor{\vspace{-20pt} \begin{flushleft}\large \usefont{OT1}{phv}{b}{sl} \color{DarkRed}}
 \author{Kenzi Antonin}	% Author name goes here
-\postauthor{\footnotesize \usefont{OT1}{phv}{m}{sl} \color{Black} \hspace{1pt}  \par\end{flushleft}\HorRule}
-\date{\today} % No date
-
+\postauthor{\vspace{-20pt} \footnotesize \usefont{OT1}{phv}{m}{sl} \color{Black}  \par\end{flushleft}\HorRule}
+\date{\vspace{-30pt} \today} % No date
+\newcounter{mycounter}
 %%% wws: create a non-indented formula name
-\newcommand{\formdesc}[1]{\noindent\textbf{#1}}
+\newcommand{\formdesc}[1]{\noindent\textbf{#1} \addtocounter{mycounter}{1} \hfill \themycounter}
 
 %%% Begin document -----------------------------------------------------------------
 \begin{document}
@@ -107,12 +105,8 @@
 \thispagestyle{fancy} 	% Enabling the custom headers/footers for the first page 
 % The first character should be within \initial{}
 
-\hformbar
-
 \formdesc{Classification des mesurandes}
-\begin{equation}
-\label{Classification des mesurandes}
-\end{equation}
+
 \footnotesize il existe plusieurs catégories de mesurandes : 
 \begin{enumerate}
  \item Mécanique : déplacement, vitesse... 
@@ -126,9 +120,6 @@
 \hformbar
 
 \formdesc{Capteur et chaînes d'acquisition}
-\begin{equation}
-    \label{Capteur et chaînes d'aquisition}
-\end{equation}
 \begin{figure}[H]
     \begin{center}
         \includegraphics[width=0.3\textwidth]{img/capteur_influence.JPG}
@@ -146,10 +137,8 @@ Problèmes :
 \hformbar
 
 \formdesc{Sensibilité du capteur}
-\begin{equation}
-    S = \cfrac{\Delta s}{\Delta m} \big |_mi
-    \label{Capteur et chaînes d'aquisition}
-    \end{equation}
+
+{\hfill $ S = \cfrac{\Delta s}{\Delta m} \big |_mi$ \hfill }
 \begin{figure}[H]
     \begin{center}
         \includegraphics[width=0.3\textwidth]{img/Etalonage_statique.JPG}
@@ -157,20 +146,79 @@ Problèmes :
         \label{fig:Etalonage Statique, Cas idéale}
     \end{center}
 \end{figure}
-
-
 \hformbar
+
 \formdesc{Erreur de linéarité}
-\begin{equation}
-    \label{Capteur et chaînes d'aquisition}
-    \end{equation}
 \begin{figure}[H]
     \begin{center}
-        \includegraphics[width=0.3\textwidth]{img/linearite.JPG}
+        \includegraphics[width=0.2\textwidth]{img/linearite.JPG}
         \caption{Erreur de linéarité}
         \label{fig:Erreur de linéarité}
     \end{center}
 \end{figure}
 Elle s'exprime en \%, soit l'erreur relative maximale entre la droite de régression et la caractéristique réelle.
+
+\formdesc{Résolution}
+
+Définition : La résolution est la plus petite variation du mesurande que le capteur est capable de definir.
+Son étendue de mesure est découpé en 3 zones : 
+\begin{itemize}
+    \item Nominale : plage nominale de mesurande (fonctionnement normal)
+    \item Non-destruction : hors spécification, mais dans l'"absolute maximum rating"
+    \item Destructive : altération permanente des caractéristiques de mesure.
+\end{itemize}
+
+\hformbar
+
+\formdesc{Rapidité d'un capteur}
+
+\begin{itemize}
+    \item Bande passante, plage de fréquence ou le gain est supérieur à 3dB du plateau
+    \item Temps de réponse, temps nécessaire pour que le capteur atteigne 95 \% de la valeur finale.
+\end{itemize}
+Les deux paramètres sont intrinsèquement liés. 
+
+{\hfill $T_{rep} = 3 \cdot \tau = \cfrac{3}{2\pi \cdot f_c}$ \hfill}
+
+\hformbar
+
+\formdesc{Erreur de mesure}
+
+Deux genres d'erreur:
+\begin{itemize}
+    \item Sysématique : Dérive, mauvaise utilisation, vieillissement.
+    \item Accidentelles (aléatoire) : Bruit, parasite, environnement.
+\end{itemize}
+En étudiant la densité de probabilité, on peut resortir deux comportements : 
+\begin{itemize}
+    \item Justesse, Moyenne de mesurande proche de la valeur réelle
+    \item Fidélité (répétabilité), Erreur accidentelle faible (variance faible)
+\end{itemize}
+lorsque les deux paramètres sont bons, on parle de précision
+
+\hformbar
+
+\formdesc{Capteur résistif}
+
+Thermistance :
+les thermistance de platine sont conçues avec deux méthodes : 
+\begin{itemize}
+    \item fil de platine enroulé, précis, mais chère (1000.-)
+    \item film mince de platine (env.$1\mu m$), réponse rapide et abordable (10.-)
+\end{itemize}
+Lorsque l'on parle de PT-X,  on parle du sonde de platine dont la valeur à 0°C est de X $\Omega$
+le coefficient $\alpha$ typique est de 3.385 \%/°C et une précision de 0.1 à 1\%
+
+la résistance s'exprime par :
+
+{\hfill $R_{T} = R_0 (1+\alpha T)$ \hfill}
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.2\textwidth]{img/PT.JPG}
+        \caption{Symbole IEC normalisé de la PT}
+        \label{fig:symbole_PT}
+    \end{center}
+\end{figure}
 
 \end{document}

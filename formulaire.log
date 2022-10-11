@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.13)  10 OCT 2022 15:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.13)  11 OCT 2022 08:35
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**g:/git/Formulaire/formulaire_capteur/formulaire
-(g:/git/Formulaire/formulaire_capteur/formulaire.tex
+**g:/git/Formulaire/formulaire_capteur/Formulaire_Capteur/formulaire
+(g:/git/Formulaire/formulaire_capteur/Formulaire_Capteur/formulaire.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-04-10> (c:/texlive/2022/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2021/11/13 v3.35 KOMA-Script document class (article)
@@ -587,46 +587,41 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmarkwidth=\skip85
 \thanksmargin=\skip86
 \droptitle=\skip87
-) (c:/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (./formulaire.aux
-
-LaTeX Warning: Label `Capteur et chaînes d'aquisition' multiply defined.
-
-
-LaTeX Warning: Label `Capteur et chaînes d'aquisition' multiply defined.
-
 )
+\c@mycounter=\count336
+ (c:/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (./formulaire.aux)
 \openout1 = `formulaire.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Info: Redefining \degres on input line 105.
-LaTeX Info: Redefining \up on input line 105.
-LaTeX Info: Redefining \microtypecontext on input line 105.
-Package microtype Info: Applying patch `item' on input line 105.
-Package microtype Info: Applying patch `toc' on input line 105.
-Package microtype Info: Applying patch `eqnum' on input line 105.
-Package microtype Info: Applying patch `footnote' on input line 105.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Info: Redefining \degres on input line 103.
+LaTeX Info: Redefining \up on input line 103.
+LaTeX Info: Redefining \microtypecontext on input line 103.
+Package microtype Info: Applying patch `item' on input line 103.
+Package microtype Info: Applying patch `toc' on input line 103.
+Package microtype Info: Applying patch `eqnum' on input line 103.
+Package microtype Info: Applying patch `footnote' on input line 103.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 105.
+LaTeX Info: Redefining \showhyphens on input line 103.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -638,23 +633,23 @@ Package newfloat Info: `wrapfig' package detected.
 
 No file pythontex-files-formulaire/formulaire.pytxmcr.
 Run PythonTeX to create it.
-Package newfloat Info: New float `listing' with options `fileext=lopytx' on input line 105.
-\c@listing=\count336
-Package newfloat Info: float type `listing'=4 on input line 105.
-\c@lopytxdepth=\count337
-Package tocbasic Info: setting babel extension for `lopytx' on input line 105.
+Package newfloat Info: New float `listing' with options `fileext=lopytx' on input line 103.
+\c@listing=\count337
+Package newfloat Info: float type `listing'=4 on input line 103.
+\c@lopytxdepth=\count338
+Package tocbasic Info: setting babel extension for `lopytx' on input line 103.
 (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count338
+\scratchcounter=\count339
 \scratchdimen=\dimen270
 \scratchbox=\box67
-\nofMPsegments=\count339
-\nofMParguments=\count340
+\nofMPsegments=\count340
+\nofMParguments=\count341
 \everyMPshowfont=\toks42
-\MPscratchCnt=\count341
+\MPscratchCnt=\count342
 \MPscratchDim=\dimen271
-\MPnumerator=\count342
-\makeMPintoPDFobject=\count343
+\MPnumerator=\count343
+\makeMPintoPDFobject=\count344
 \everyMPtoPDFconversion=\toks43
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -663,8 +658,8 @@ Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 105.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 106.
+(lastpage)             ! on input line 103.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 104.
  (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
@@ -672,25 +667,10 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 113.
- (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 113.
- (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
 <img/capteur_influence.JPG, id=1, 1140.6615pt x 387.849pt>
 File: img/capteur_influence.JPG Graphic file (type jpg)
 <use img/capteur_influence.JPG>
-Package pdftex.def Info: img/capteur_influence.JPG  used on input line 134.
+Package pdftex.def Info: img/capteur_influence.JPG  used on input line 125.
 (pdftex.def)             Requested size: 150.9509pt x 51.32169pt.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/qtm/m/sc/10.95'.
@@ -698,47 +678,64 @@ Package microtype Info: Character `029' is missing
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/qtm/b/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
+ (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 141.
+ (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 141.
+ (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
 <img/Etalonage_statique.JPG, id=2, 902.77275pt x 465.53925pt>
 File: img/Etalonage_statique.JPG Graphic file (type jpg)
 <use img/Etalonage_statique.JPG>
-Package pdftex.def Info: img/Etalonage_statique.JPG  used on input line 155.
+Package pdftex.def Info: img/Etalonage_statique.JPG  used on input line 144.
 (pdftex.def)             Requested size: 150.9509pt x 77.84067pt.
 <img/linearite.JPG, id=3, 681.747pt x 479.391pt>
 File: img/linearite.JPG Graphic file (type jpg)
 <use img/linearite.JPG>
-Package pdftex.def Info: img/linearite.JPG  used on input line 169.
-(pdftex.def)             Requested size: 150.9509pt x 106.14662pt.
+Package pdftex.def Info: img/linearite.JPG  used on input line 154.
+(pdftex.def)             Requested size: 100.63138pt x 70.7571pt.
+LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 209.
+ (c:/texlive/2022/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
+File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
+)
+<img/PT.JPG, id=4, 242.1045pt x 269.808pt>
+File: img/PT.JPG Graphic file (type jpg)
+<use img/PT.JPG>
+Package pdftex.def Info: img/PT.JPG  used on input line 218.
+(pdftex.def)             Requested size: 100.63138pt x 112.14526pt.
  
 AED: lastpage setting LastPage
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 176.
-(c:/texlive/2022/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
-File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
-) [1{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+[1{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
- <./img/capteur_influence.JPG> <./img/Etalonage_statique.JPG> <./img/linearite.JPG>] (./formulaire.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+ <./img/capteur_influence.JPG> <./img/Etalonage_statique.JPG> <./img/linearite.JPG> <./img/PT.JPG>] (./formulaire.aux) ) 
 Here is how much of TeX's memory you used:
- 16576 strings out of 478238
- 319096 string characters out of 5847939
- 798883 words of memory out of 5000000
- 34483 multiletter control sequences out of 15000+600000
- 512807 words of font info for 96 fonts, out of 8000000 for 9000
+ 16568 strings out of 478238
+ 318870 string characters out of 5847939
+ 806883 words of memory out of 5000000
+ 34470 multiletter control sequences out of 15000+600000
+ 510440 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,11n,106p,10695b,548s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb>
-Output written on formulaire.pdf (1 page, 404278 bytes).
+ 108i,11n,106p,10714b,548s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb>
+Output written on formulaire.pdf (1 page, 450652 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 27664 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 26645 words of extra memory for PDF output out of 29859 (max. 10000000)
 
