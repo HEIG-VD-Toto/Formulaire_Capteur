@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.13)  19 OCT 2022 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.23)  19 NOV 2022 16:57
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**g:/git/Formulaire/formulaire_capteur/Formulaire_Capteur/formulaire
-(g:/git/Formulaire/formulaire_capteur/Formulaire_Capteur/formulaire.tex
+**c:/Users/Anton/Documents/GitHub/Formulaire_Capteur/formulaire
+(c:/Users/Anton/Documents/GitHub/Formulaire_Capteur/formulaire.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-04-10> (c:/texlive/2022/texmf-dist/tex/latex/koma-script/scrartcl.cls
+L3 programming layer <2022-04-20> (c:/texlive/2022/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2021/11/13 v3.35 KOMA-Script document class (article)
 (c:/texlive/2022/texmf-dist/tex/latex/koma-script/scrkbase.sty
 Package: scrkbase 2021/11/13 v3.35 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
@@ -124,7 +124,7 @@ Package: babel 2022/02/26 3.73 The Babel package
 \bbl@readstream=\read2
 \bbl@dirlevel=\count195
  (c:/texlive/2022/texmf-dist/tex/generic/babel-french/french.ldf
-Language: french 2021/07/20 v3.5m French support from the babel system
+Language: french 2022/04/18 v3.5n French support from the babel system
 Package babel Info: Hyphen rules for 'acadian' set to \l@french
 (babel)             (\language29). Reported on input line 91.
 Package babel Info: Hyphen rules for 'canadien' set to \l@french
@@ -247,9 +247,9 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip69
 \dth@everypar=\toks29
 ) (c:/texlive/2022/texmf-dist/tex/latex/xpatch/xpatch.sty (c:/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-04-10 L3 programming layer (loader) 
+Package: expl3 2022-04-20 L3 programming layer (loader) 
  (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-04-10 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count284
 \l__pdf_internal_box=\box55
 ))
@@ -265,7 +265,7 @@ Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
  (c:/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 ) (c:/texlive/2022/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2021/12/21 4.1b verbatim text (tvz,hv)
+Package: fancyvrb 2022/04/12 4.2 verbatim text (tvz,hv)
 \FV@CodeLineNo=\count285
 \FV@InFile=\read3
 \FV@TabBox=\box56
@@ -496,7 +496,295 @@ File: t1qtm.fd 2009/09/25 v1.2 font definition file for T1/qtm
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks39
 \inpenc@posthook=\toks40
-) (c:/texlive/2022/texmf-dist/tex/latex/sectsty/sectsty.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/stackengine/stackengine.sty
+Package: stackengine 2021/07/22 v4.11\ Stacking text and objects in convenient ways
+ (c:/texlive/2022/texmf-dist/tex/generic/listofitems/listofitems.sty (c:/texlive/2022/texmf-dist/tex/generic/listofitems/listofitems.tex
+\loi_cnt_foreach_nest=\count331
+\loi_nestcnt=\count332
+)
+Package: listofitems 2019/08/21 v1.63 Grab items in lists using user-specified sep char (CT)
+) (c:/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count333
+\calc@Bcount=\count334
+\calc@Adimen=\dimen195
+\calc@Bdimen=\dimen196
+\calc@Askip=\skip76
+\calc@Bskip=\skip77
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count335
+\calc@Cskip=\skip78
+)
+\c@@stackindex=\count336
+\@boxshift=\skip79
+\stack@tmplength=\skip80
+\temp@stkl=\skip81
+\@stackedboxwidth=\skip82
+\@addedbox=\box65
+\@anchorbox=\box66
+\@insetbox=\box67
+\se@backgroundbox=\box68
+\stackedbox=\box69
+\@centerbox=\box70
+\c@ROWcellindex@=\count337
+) (c:/texlive/2022/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks41
+\pgfutil@tempdima=\dimen197
+\pgfutil@tempdimb=\dimen198
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box71
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+ (c:/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2022/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+\pgf@x=\dimen199
+\pgf@y=\dimen256
+\pgf@xa=\dimen257
+\pgf@ya=\dimen258
+\pgf@xb=\dimen259
+\pgf@yb=\dimen260
+\pgf@xc=\dimen261
+\pgf@yc=\dimen262
+\pgf@xd=\dimen263
+\pgf@yd=\dimen264
+\w@pgf@writea=\write5
+\r@pgf@reada=\read4
+\c@pgf@counta=\count338
+\c@pgf@countb=\count339
+\c@pgf@countc=\count340
+\c@pgf@countd=\count341
+\t@pgf@toka=\toks42
+\t@pgf@tokb=\toks43
+\t@pgf@tokc=\toks44
+\pgf@sys@id@count=\count342
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+))) (c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count343
+\pgfsyssoftpath@bigbuffer@items=\count344
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen265
+\pgfmath@count=\count345
+\pgfmath@box=\box72
+\pgfmath@toks=\toks45
+\pgfmath@stack@operand=\toks46
+\pgfmath@stack@operation=\toks47
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count346
+)) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen266
+\pgf@picmaxx=\dimen267
+\pgf@picminy=\dimen268
+\pgf@picmaxy=\dimen269
+\pgf@pathminx=\dimen270
+\pgf@pathmaxx=\dimen271
+\pgf@pathminy=\dimen272
+\pgf@pathmaxy=\dimen273
+\pgf@xx=\dimen274
+\pgf@xy=\dimen275
+\pgf@yx=\dimen276
+\pgf@yy=\dimen277
+\pgf@zx=\dimen278
+\pgf@zy=\dimen279
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen280
+\pgf@path@lasty=\dimen281
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen282
+\pgf@shorten@start@additional=\dimen283
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box73
+\pgf@hbox=\box74
+\pgf@layerbox@main=\box75
+\pgf@picture@serial@count=\count347
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen284
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen285
+\pgf@pt@y=\dimen286
+\pgf@pt@temp=\dimen287
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen288
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen289
+\pgf@sys@shading@range@num=\count348
+\pgf@shadingcount=\count349
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box76
+)) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (c:/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box77
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (c:/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen290
+\pgf@nodesepend=\dimen291
+) (c:/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (c:/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2022/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen292
+\pgffor@skip=\dimen293
+\pgffor@stack=\toks48
+\pgffor@toks=\toks49
+)) (c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count350
+\pgfplotmarksize=\dimen294
+)
+\tikz@lastx=\dimen295
+\tikz@lasty=\dimen296
+\tikz@lastxsaved=\dimen297
+\tikz@lastysaved=\dimen298
+\tikz@lastmovetox=\dimen299
+\tikz@lastmovetoy=\dimen300
+\tikzleveldistance=\dimen301
+\tikzsiblingdistance=\dimen302
+\tikz@figbox=\box78
+\tikz@figbox@bg=\box79
+\tikz@tempbox=\box80
+\tikz@tempbox@bg=\box81
+\tikztreelevel=\count351
+\tikznumberofchildren=\count352
+\tikznumberofcurrentchild=\count353
+\tikz@fig@count=\count354
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count355
+\pgfmatrixcurrentcolumn=\count356
+\pgf@matrix@numberofcolumns=\count357
+)
+\tikz@expandcount=\count358
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (c:/texlive/2022/texmf-dist/tex/latex/pgfplots/pgfplots.sty (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+ (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks50
+\t@pgfplots@tokb=\toks51
+\t@pgfplots@tokc=\toks52
+\pgfplots@tmpa=\dimen303
+\c@pgfplots@coordindex=\count359
+\c@pgfplots@scanlineindex=\count360
+ (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count361
+) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count362
+\t@pgfplotstable@a=\toks53
+) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
+(c:/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count363
+ (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen304
+\pgfdecoratedremainingdistance=\dimen305
+\pgfdecoratedinputsegmentcompleteddistance=\dimen306
+\pgfdecoratedinputsegmentremainingdistance=\dimen307
+\pgf@decorate@distancetomove=\dimen308
+\pgf@decorate@repeatstate=\count364
+\pgfdecorationsegmentamplitude=\dimen309
+\pgfdecorationsegmentlength=\dimen310
+)
+\tikz@lib@dec@box=\box82
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count365
+\pgfplots@xmin@reg=\dimen311
+\pgfplots@xmax@reg=\dimen312
+\pgfplots@ymin@reg=\dimen313
+\pgfplots@ymax@reg=\dimen314
+\pgfplots@zmin@reg=\dimen315
+\pgfplots@zmax@reg=\dimen316
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (c:/texlive/2022/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+ (c:/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+ (c:/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks54
+\XKV@tempa@toks=\toks55
+)
+\XKV@depth=\count366
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (c:/texlive/2022/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (c:/texlive/2022/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (c:/texlive/2022/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box83
+)
+\tc@llx=\dimen317
+\tc@lly=\dimen318
+\tc@urx=\dimen319
+\tc@ury=\dimen320
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (c:/texlive/2022/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen321
+\adjbox@Height=\dimen322
+\adjbox@Depth=\dimen323
+\adjbox@Totalheight=\dimen324
+\adjbox@pwidth=\dimen325
+\adjbox@pheight=\dimen326
+\adjbox@pdepth=\dimen327
+\adjbox@ptotalheight=\dimen328
+ (c:/texlive/2022/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count367
+) (c:/texlive/2022/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box84
+\sift@deathcycles=\count368
+\@vwid@loff=\dimen329
+\@vwid@roff=\dimen330
+)) (c:/texlive/2022/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading styles
 
 
@@ -519,7 +807,7 @@ Class scrartcl Warning: Incompatible package `sectsty' loaded!
 (scrartcl)              the `sectsty' maintainer for a more compatible release.
 (scrartcl)              Ignoring this warning could result in several error
 (scrartcl)              messages and formatting issues after loading package
-(scrartcl)              `sectsty' on input line 51.
+(scrartcl)              `sectsty' on input line 54.
 
 
 Class scrartcl Warning: Usage of package `fancyhdr' together
@@ -533,95 +821,95 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              `\addtokomafont' for the page style elements need
 (scrartcl)              explicite user intervention to work.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 60.
+(scrartcl)              package `fancyhdr' on input line 63.
 
 (c:/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip76
-\f@nch@O@elh=\skip77
-\f@nch@O@erh=\skip78
-\f@nch@O@olh=\skip79
-\f@nch@O@orh=\skip80
-\f@nch@O@elf=\skip81
-\f@nch@O@erf=\skip82
-\f@nch@O@olf=\skip83
-\f@nch@O@orf=\skip84
+\f@nch@headwidth=\skip83
+\f@nch@O@elh=\skip84
+\f@nch@O@erh=\skip85
+\f@nch@O@olh=\skip86
+\f@nch@O@orh=\skip87
+\f@nch@O@elf=\skip88
+\f@nch@O@erf=\skip89
+\f@nch@O@olf=\skip90
+\f@nch@O@orf=\skip91
 ) (c:/texlive/2022/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
 ) (c:/texlive/2022/texmf-dist/tex/latex/lettrine/lettrine.sty
 File: lettrine.sty 2020-03-14 v2.23 (Daniel Flipo)
  (c:/texlive/2022/texmf-dist/tex/generic/minifp/minifp.sty
 Package: minifp 2013/12/30 v0.96. Macros for real number operations and a stack-based programing language.
-\MFP@loopctr=\count331
+\MFP@loopctr=\count369
 )
-\c@DefaultLines=\count332
-\c@DefaultDepth=\count333
-\DefaultFindent=\dimen195
-\DefaultNindent=\dimen196
-\DefaultSlope=\dimen197
-\DiscardVskip=\dimen198
-\L@lbox=\box65
-\L@tbox=\box66
-\c@L@lines=\count334
-\c@L@depth=\count335
-\L@Pindent=\dimen199
-\L@Findent=\dimen256
-\L@Nindent=\dimen257
-\L@lraise=\dimen258
-\L@first=\dimen259
-\L@next=\dimen260
-\L@slope=\dimen261
-\L@height=\dimen262
-\L@novskip=\dimen263
-\L@target@ht=\dimen264
-\L@target@dp=\dimen265
-\L@target@tht=\dimen266
-\LettrineWidth=\dimen267
-\LettrineHeight=\dimen268
-\LettrineDepth=\dimen269
-\Llist@everypar=\toks41
+\c@DefaultLines=\count370
+\c@DefaultDepth=\count371
+\DefaultFindent=\dimen331
+\DefaultNindent=\dimen332
+\DefaultSlope=\dimen333
+\DiscardVskip=\dimen334
+\L@lbox=\box85
+\L@tbox=\box86
+\c@L@lines=\count372
+\c@L@depth=\count373
+\L@Pindent=\dimen335
+\L@Findent=\dimen336
+\L@Nindent=\dimen337
+\L@lraise=\dimen338
+\L@first=\dimen339
+\L@next=\dimen340
+\L@slope=\dimen341
+\L@height=\dimen342
+\L@novskip=\dimen343
+\L@target@ht=\dimen344
+\L@target@dp=\dimen345
+\L@target@tht=\dimen346
+\LettrineWidth=\dimen347
+\LettrineHeight=\dimen348
+\LettrineDepth=\dimen349
+\Llist@everypar=\toks56
 
 Loading lettrine.cfg
 (c:/texlive/2022/texmf-dist/tex/latex/lettrine/lettrine.cfg)) (c:/texlive/2022/texmf-dist/tex/latex/titling/titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip85
-\thanksmargin=\skip86
-\droptitle=\skip87
+\thanksmarkwidth=\skip92
+\thanksmargin=\skip93
+\droptitle=\skip94
 )
-\c@mycounter=\count336
+\c@mycounter=\count374
  (c:/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (./formulaire.aux)
 \openout1 = `formulaire.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Info: Redefining \degres on input line 104.
-LaTeX Info: Redefining \up on input line 104.
-LaTeX Info: Redefining \microtypecontext on input line 104.
-Package microtype Info: Applying patch `item' on input line 104.
-Package microtype Info: Applying patch `toc' on input line 104.
-Package microtype Info: Applying patch `eqnum' on input line 104.
-Package microtype Info: Applying patch `footnote' on input line 104.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Info: Redefining \degres on input line 107.
+LaTeX Info: Redefining \up on input line 107.
+LaTeX Info: Redefining \microtypecontext on input line 107.
+Package microtype Info: Applying patch `item' on input line 107.
+Package microtype Info: Applying patch `toc' on input line 107.
+Package microtype Info: Applying patch `eqnum' on input line 107.
+Package microtype Info: Applying patch `footnote' on input line 107.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 104.
+LaTeX Info: Redefining \showhyphens on input line 107.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -633,44 +921,49 @@ Package newfloat Info: `wrapfig' package detected.
 
 No file pythontex-files-formulaire/formulaire.pytxmcr.
 Run PythonTeX to create it.
-Package newfloat Info: New float `listing' with options `fileext=lopytx' on input line 104.
-\c@listing=\count337
-Package newfloat Info: float type `listing'=4 on input line 104.
-\c@lopytxdepth=\count338
-Package tocbasic Info: setting babel extension for `lopytx' on input line 104.
+Package newfloat Info: New float `listing' with options `fileext=lopytx' on input line 107.
+\c@listing=\count375
+Package newfloat Info: float type `listing'=4 on input line 107.
+\c@lopytxdepth=\count376
+Package tocbasic Info: setting babel extension for `lopytx' on input line 107.
 (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count339
-\scratchdimen=\dimen270
-\scratchbox=\box67
-\nofMPsegments=\count340
-\nofMParguments=\count341
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count342
-\MPscratchDim=\dimen271
-\MPnumerator=\count343
-\makeMPintoPDFobject=\count344
-\everyMPtoPDFconversion=\toks43
+\scratchcounter=\count377
+\scratchdimen=\dimen350
+\scratchbox=\box87
+\nofMPsegments=\count378
+\nofMParguments=\count379
+\everyMPshowfont=\toks57
+\MPscratchCnt=\count380
+\MPscratchDim=\dimen351
+\MPnumerator=\count381
+\makeMPintoPDFobject=\count382
+\everyMPtoPDFconversion=\toks58
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
+
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
+ on input line 107.
+
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 104.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 105.
- (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1phv.fd
+(lastpage)             ! on input line 107.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 108.
+(c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<img/capteur_influence.JPG, id=1, 1140.6615pt x 387.849pt>
+<img/capteur_influence.JPG, id=4, 1140.6615pt x 387.849pt>
 File: img/capteur_influence.JPG Graphic file (type jpg)
 <use img/capteur_influence.JPG>
-Package pdftex.def Info: img/capteur_influence.JPG  used on input line 126.
+Package pdftex.def Info: img/capteur_influence.JPG  used on input line 129.
 (pdftex.def)             Requested size: 150.9509pt x 51.32169pt.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/qtm/m/sc/10.95'.
@@ -681,61 +974,132 @@ Package microtype Info: Character `029' is missing
  (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 142.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 145.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 142.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 145.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<img/Etalonage_statique.JPG, id=2, 902.77275pt x 465.53925pt>
+<img/Etalonage_statique.JPG, id=5, 902.77275pt x 465.53925pt>
 File: img/Etalonage_statique.JPG Graphic file (type jpg)
 <use img/Etalonage_statique.JPG>
-Package pdftex.def Info: img/Etalonage_statique.JPG  used on input line 145.
+Package pdftex.def Info: img/Etalonage_statique.JPG  used on input line 148.
 (pdftex.def)             Requested size: 150.9509pt x 77.84067pt.
-<img/linearite.JPG, id=3, 681.747pt x 479.391pt>
+<img/linearite.JPG, id=6, 681.747pt x 479.391pt>
 File: img/linearite.JPG Graphic file (type jpg)
 <use img/linearite.JPG>
-Package pdftex.def Info: img/linearite.JPG  used on input line 155.
+Package pdftex.def Info: img/linearite.JPG  used on input line 158.
 (pdftex.def)             Requested size: 100.63138pt x 70.7571pt.
-LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 210.
- (c:/texlive/2022/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
-File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
-)
-<img/PT.JPG, id=4, 242.1045pt x 269.808pt>
-File: img/PT.JPG Graphic file (type jpg)
-<use img/PT.JPG>
-Package pdftex.def Info: img/PT.JPG  used on input line 219.
-(pdftex.def)             Requested size: 75.4716pt x 84.10483pt.
- 
-AED: lastpage setting LastPage
+<img/justesse.JPG, id=7, 815.29594pt x 349.305pt>
+File: img/justesse.JPG Graphic file (type jpg)
+<use img/justesse.JPG>
+Package pdftex.def Info: img/justesse.JPG  used on input line 203.
+(pdftex.def)             Requested size: 246.5534pt x 105.63443pt.
+
+Overfull \hbox (10.95pt too wide) in paragraph at lines 203--204
+[][] 
+ []
+
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-[1{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 221.
+(c:/texlive/2022/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
+File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
+) [1{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
- <./img/capteur_influence.JPG> <./img/Etalonage_statique.JPG> <./img/linearite.JPG> <./img/PT.JPG>] (./formulaire.aux) ) 
+ <./img/capteur_influence.JPG> <./img/Etalonage_statique.JPG> <./img/linearite.JPG> <./img/justesse.JPG>]
+<img/PT.JPG, id=26, 242.1045pt x 269.808pt>
+File: img/PT.JPG Graphic file (type jpg)
+<use img/PT.JPG>
+Package pdftex.def Info: img/PT.JPG  used on input line 240.
+(pdftex.def)             Requested size: 75.4716pt x 84.10483pt.
+<img/condi_cur.pdf, id=27, 238.24167pt x 143.79723pt>
+File: img/condi_cur.pdf Graphic file (type pdf)
+<use img/condi_cur.pdf>
+Package pdftex.def Info: img/condi_cur.pdf  used on input line 253.
+(pdftex.def)             Requested size: 150.9509pt x 91.11273pt.
+
+Overfull \hbox (10.95pt too wide) in paragraph at lines 253--254
+[][] 
+ []
+
+<img/condi_ten.pdf, id=28, 356.03275pt x 145.33296pt>
+File: img/condi_ten.pdf Graphic file (type pdf)
+<use img/condi_ten.pdf>
+Package pdftex.def Info: img/condi_ten.pdf  used on input line 257.
+(pdftex.def)             Requested size: 251.58229pt x 102.69481pt.
+
+Overfull \hbox (10.95pt too wide) in paragraph at lines 257--258
+[][] 
+ []
+
+<img/wheastone.pdf, id=29, 281.25256pt x 143.45595pt>
+File: img/wheastone.pdf Graphic file (type pdf)
+<use img/wheastone.pdf>
+Package pdftex.def Info: img/wheastone.pdf  used on input line 265.
+(pdftex.def)             Requested size: 150.9509pt x 76.99442pt.
+
+Overfull \hbox (10.95pt too wide) in paragraph at lines 265--266
+[][] 
+ []
+
+<img/Ampli.pdf, id=30, 602.57176pt x 179.46045pt>
+File: img/Ampli.pdf Graphic file (type pdf)
+<use img/Ampli.pdf>
+Package pdftex.def Info: img/Ampli.pdf  used on input line 325.
+(pdftex.def)             Requested size: 276.74205pt x 107.8989pt.
+
+Overfull \hbox (10.95pt too wide) in paragraph at lines 325--326
+[][] 
+ []
+
+<img/Rappel_ind.JPG, id=32, 603.75563pt x 261.97874pt>
+File: img/Rappel_ind.JPG Graphic file (type jpg)
+<use img/Rappel_ind.JPG>
+Package pdftex.def Info: img/Rappel_ind.JPG  used on input line 357.
+(pdftex.def)             Requested size: 201.26276pt x 87.32869pt.
+
+Overfull \hbox (10.95pt too wide) in paragraph at lines 357--358
+[][] 
+ []
+
+[2 <./img/Ampli.pdf> <./img/PT.JPG> <./img/condi_cur.pdf> <./img/condi_ten.pdf> <./img/wheastone.pdf>]
+<img/circuit_res.pdf, id=130, 311.21991pt x 188.33362pt>
+File: img/circuit_res.pdf Graphic file (type pdf)
+<use img/circuit_res.pdf>
+Package pdftex.def Info: img/circuit_res.pdf  used on input line 402.
+(pdftex.def)             Requested size: 201.26276pt x 121.7918pt.
+
+Overfull \hbox (10.95pt too wide) in paragraph at lines 402--403
+[][] 
+ []
+
+
+AED: lastpage setting LastPage
+[3 <./img/Rappel_ind.JPG> <./img/circuit_res.pdf>] (./formulaire.aux) ) 
 Here is how much of TeX's memory you used:
- 16573 strings out of 478238
- 318916 string characters out of 5847939
- 806901 words of memory out of 5000000
- 34471 multiletter control sequences out of 15000+600000
- 510620 words of font info for 91 fonts, out of 8000000 for 9000
+ 37630 strings out of 478233
+ 891184 string characters out of 5847836
+ 1452186 words of memory out of 5000000
+ 55134 multiletter control sequences out of 15000+600000
+ 511256 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,11n,106p,10714b,548s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb>
-Output written on formulaire.pdf (1 page, 450652 bytes).
+ 108i,12n,106p,10709b,627s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb>
+Output written on formulaire.pdf (3 pages, 579086 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 232 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 26645 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 26698 words of extra memory for PDF output out of 29859 (max. 10000000)
 

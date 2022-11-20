@@ -1,0 +1,22 @@
+import schemdraw
+import schemdraw.elements as elm
+schemdraw.config(lw=1, font='serif')
+with schemdraw.Drawing(file='img\Ampli.pdf') as d:
+    elm.style(elm.STYLE_IEC)
+    d += (op := elm.Opamp(leads=True))
+    d += elm.Line().down().at(op.in2).length(1)
+    d.push()
+    d += elm.Resistor().right().tox(op.out).label("$R_4$",loc = "bottom")
+    d += elm.Ground()
+    d.pop()
+    d += elm.Dot()
+    d += elm.Resistor().left().label('$u_a$', loc='left').label("$R_3$",loc = "bottom")
+    d += elm.Line().up().at(op.in1).length(1)
+    d.push()
+    d += elm.Dot()
+    d += elm.Resistor().left().label('$u_b$', loc='left').label("$R_2$")
+    d.pop()
+    d += elm.Resistor().right().tox(op.out).label("$R_1$")
+    d += elm.Line().toy(op.out).dot()
+    d += elm.Dot()
+    d += elm.Line().right().length(0.5).label(r"$V_0 = -\frac{R_2}{R_1}u_b +(1+\frac{R_2}{R_1})\frac{R_4}{R_3+R4}u_a$ ",loc= "right")

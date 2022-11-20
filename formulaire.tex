@@ -44,6 +44,9 @@
 \usepackage{tgtermes}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
+\usepackage{stackengine}
+\usepackage{tikz,pgfplots}
+\usepackage[export]{adjustbox}
 
 
 %%% Custom sectioning (sectsty package)
@@ -197,7 +200,25 @@ En étudiant la densité de probabilité, on peut ressortir deux comportements :
 \end{itemize}
 lorsque les deux paramètres sont bons, on parle de précision
 
+\includegraphics[width=0.49\textwidth,center]{img/justesse.JPG}
+
 \hformbar
+
+
+\formdesc{Choix du capteur}
+\begin{itemize}
+    \item principe physique 
+    \item performance(résolution, précision, plage de mesure)
+    \item Grandeur d'influence 
+    \item encombrement
+    \item prix
+    \item fiabilité, MTBF : Mean Time Between Failures
+\end{itemize}
+
+$MTBF = \cfrac{1}{\lambda}$
+
+$\lambda : taux de defaillance = \cfrac{1}{N_{pop}}\cfrac{\Delta N_{def}}{\Delta t} $
+\newpage
 
 \formdesc{Capteur résistif}
 
@@ -222,4 +243,181 @@ la résistance s'exprime par :
     \end{center}
 \end{figure}
 
+
+\hformbar
+
+\formdesc{Conditionneurs pour capteur résistif}
+
+conditionneur linéaire à source de courant :
+
+\includegraphics[width = 0.3\textwidth,center]{img/condi_cur.pdf}
+
+conditionneur non-linéaire type "diviseur de tension" :
+
+\includegraphics[width = 0.5\textwidth,center]{img/condi_ten.pdf}
+
+$S_{cond} = \cfrac{\Delta U }{\Delta R } = \cfrac{d U }{d R } = \cfrac{R_0 }{(R_0 + R_{nom})^2}\cdot U_0$
+$R_{0,opti} = R_{nom}$
+$U(R)$ varie jusqu'à $U_0/2$
+
+Pont de Wheatstone, tension de déséquilibre:
+
+\includegraphics[width = 0.3\textwidth,center]{img/wheastone.pdf}
+
+$u_m = u_a-u_b = \cfrac{R2}{R1+R2}-\cfrac{R4}{R3+R4} \cdot U_0$
+
+$u_m = 0 \leftrightarrow R1R4=R2R3$
+
+en mode "nulling"
+
+R2 = capteur
+
+R4 programée $R_{2,capt} = R_{4,prog} = \cfrac{R1}{R3}$
+
+Avantages :
+
+\begin{itemize}
+    \item indépendant de la tension d'alimentation U0
+    \item indépendant de la précision de mesure de Um, il faut juste pouvoir détecter précisément "zéro".
+    \item indépendant d'un courant de mesure de Um
+\end{itemize}
+
+Inconvénients :
+
+- faible bande passante, que possible pour des mesurandes statiques
+
+$R2 = R_0 + \Delta R_c$
+
+$R1 = R3 = R4 = R0$
+
+$u_m = \bigg(\cfrac{R_0 + \Delta R_c}{2 R_0 + \Delta R_c}-\cfrac{1}{2}\bigg) U_0 = \bigg(\cfrac{\Delta R_c}{4 R_0 + 2\Delta R_c}\bigg) U_0$
+
+$S_{cond} = \cfrac{U_0}{4R}$
+
+
+montage différentiel: "push-pull
+
+$R1 = R_0 + \Delta R_c$
+
+$R2 = R_0 - \Delta R_c$
+
+$R3 = R4 = R0$
+
+$u_m(\Delta R_c) = \cfrac{U_0}{2R_0}\cdot \Delta R_c $
+
+$S_{cond} = \cfrac{U_0}{2R_0}$
+
+utilisation du pont de Wheatstone en mode 4/4 différentiel
+
+$R1 = R4 = R_0 - \Delta R_c$
+
+$R2 = R3 = R_0 + \Delta R_c$
+
+$u_m(\Delta R_c) = \cfrac{U_0}{R_0}\cdot \Delta R_c $
+
+$S_{cond} = \cfrac{U_0}{R_0}$
+
+
+\hformbar
+
+\formdesc{Amplificateur différentiel}
+
+\includegraphics[width = 0.55\textwidth,center,trim={0 0 5cm 0},clip]{img/Ampli.pdf}
+
+$u_d = u_a - u_b$
+
+$u_c = \cfrac{u_a + u_b}{2}$
+
+$V_0 = G_c \cdot u_c + G_d \cdot u_d $
+
+$Gc = \cfrac{V_o}{E_c}\bigg|_{Ed = 0} = \cfrac{R4R1-R2R3}{R1(R3+R4)}$
+
+
+$Gd = \cfrac{V_o}{E_d}\bigg|_{Ec = 0} = \cfrac{1}{2}\bigg[\cfrac{R2}{R1}+\bigg(1+ \cfrac{R2}{R1}\bigg)\cfrac{R4}{R3+R4}\bigg]$
+
+$CMRR = \cfrac{G_d}{G_c}$
+
+
+
+\hformbar
+
+\formdesc{électromagnétisme}
+
+Phénomènes physiques exploités
+\begin{itemize}
+    \item variation de la réluctance d‘un circuit magnétique (p.ex. variation de l‘entrefer)
+    \item variation du facteur de couplage entre 2 ou plusieurs bobines
+    \item détection des pertes ohmiques crées par des courants de Foucault induits dans une cible conductrice
+    \item variation de l‘inductance due au champ opposé crée par les courants de Foucault
+    \item loi d‘induction de Faraday (tension induite par un champ variable)
+\end{itemize}
+
+Rappel : 
+
+\includegraphics[width = 0.4\textwidth,center]{img/Rappel_ind.JPG}
+
+Facteur de couplage : $ k = \sqrt{\cfrac{L_{12}^2}{L_1 L_2}}$
+
+Capteur de proximité : effets physiques (1/2)
+\begin{itemize}
+    \item bobine seule, sans présence de cible
+    \begin{itemize}
+        \item effet de peau : fréquence élevée $\Rightarrow$ résistance augmente
+        \item auto-résonance avec la capacité parasitaire
+    \end{itemize}
+    \item cible conducteur non ferromagnétique
+    \begin{itemize}
+        \item Courants de Foucault induits $\Rightarrow$ résistance équivalente augmente
+        \item champ magnétique induit opposé $\Rightarrow$ inductance équivalente diminue
+    \end{itemize}
+    \item cible conducteur ferromagnétique non-conducteur (~ferrite)
+    \begin{itemize}
+        \item effet de reluctance, concentration du champ magnétique $\Rightarrow$ inductance augmente 
+    \end{itemize}
+    \item cible conducteur ferromagnétique conducteur (p.ex. fer)
+    \begin{itemize}
+        \item à basse fréquence : peu de courants de Foucault, augmentation de l'inductance
+        \item à haute fréquence : courants de Foucault élevés, diminution de l'inductance
+    \end{itemize}
+\end{itemize}
+
+
+Capteurs inductifs et à courant de Foucault et Circuit de résonance
+
+
+\begin{enumerate}
+    \item Bobine idéale ($R_b = 0$)
+        \begin{itemize}
+            \item Diagramme de Bode de $H(j\omega)$
+            \item Affichage de H(L) dans le plan complexe
+            \item Fonction de Möbius
+        \end{itemize}
+    \item Bobine nonidéale ($R_b \neq 0$)
+        \begin{itemize}
+            \item Fréquence de résonnance
+            \item Choix optimal de R0
+        \end{itemize}
+\end{enumerate}
+
+\includegraphics[width = 0.4\textwidth,center]{img/circuit_res.pdf}
+
+Bobine Idéale :
+
+$Z_{para} = \cfrac{j\omega L_b}{1+(j\omega)^2L_bC}$
+
+$\underline{H}(j\omega,Lb) = \cfrac{Z_{para} }{Z_{para} + R_0} = \cfrac{j\omega L_b}{R0 + j\omega L_b+(j\omega)^2R_0L_bC}$
+
+Sous forme de Bode : 
+
+
+$\underline{H}(j\omega,Lb) = \cfrac{j\omega L_b/R0}{1+ \underbrace{\cfrac{L_b}{R_0}}_{\cfrac{2\zeta}{\omega_r}}j\omega + \underbrace{\cfrac{1}{1/(L_bC)}}_{\cfrac{1}{\omega_r^2}}(j\omega)^2}$
+
+$\omega_r = \cfrac{1}{\sqrt{L_b C}}$ \quad $\zeta = \cfrac{L_b}{2R_0\sqrt{L_b C}}$
+
+
+Bobine réelle :
+
+$\omega_res = \sqrt{\cfrac{1}{L_b C} - \cfrac{R_b^2}{L_b^2}}$ \quad $Z_{para,res} = \cfrac{L_b}{R_b C} = R_{para,res}$
+
+$S_{cond} = \biggl|\cfrac{dH}{dZ_{bobine}}\biggr|$
 \end{document}
